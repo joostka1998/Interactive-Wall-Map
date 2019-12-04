@@ -1,0 +1,22 @@
+<br/>
+<h1>Zoek op deze kaart je stageplek!</h1>
+<br/>
+<div #mapContainer id="map"></div>
+
+<br/><br/>
+
+
+<div class="row">
+  <div class="column">
+    <div id="searchbox">
+      <input id="addStageInput" type="text" placeholder="Voeg een stage-adres toe!" [(ngModel)]="query">
+      <button id="addStageButton" type="button" (click)="getAddress()">Voeg toe!</button>
+    </div>
+  </div>
+  <div class="column">
+    <p>Filters:</p>
+
+  </div>
+</div>
+
+

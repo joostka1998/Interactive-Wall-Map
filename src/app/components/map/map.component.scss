@@ -1,0 +1,49 @@
+h1 {
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+#searchbox {
+  text-align: center;
+}
+
+#addStageButton {
+  background-color: #000000;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px
+}
+
+#addStageInput {
+  width: 80%;
+  padding: 12px 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Interactive-Wall-Map';
+  title = 'Interactive Wall';
+
+  constructor(private router: Router) {
+    // this.router.navigate(['/home']);
+  }
 }
